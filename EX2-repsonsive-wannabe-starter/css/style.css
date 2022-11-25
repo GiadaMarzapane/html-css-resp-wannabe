@@ -129,6 +129,7 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px){
+
     div.container{
         max-width: 768px;
     }
@@ -136,5 +137,19 @@ img {
     div.container img {
         width: 100%;
         height: auto;
+    }
+ }
+
+ @media screen and (max-width: 480px){
+    div.container {
+        max-width: 480px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .row .col{
+        width: 100%;
     }
  }
